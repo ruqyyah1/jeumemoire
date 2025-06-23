@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jeumemoire/static/css/main.22bc524a.css",
+    "main.js": "/jeumemoire/static/js/main.7192b5f0.js",
+    "static/js/453.607a3c76.chunk.js": "/jeumemoire/static/js/453.607a3c76.chunk.js",
+    "index.html": "/jeumemoire/index.html",
+    "main.22bc524a.css.map": "/jeumemoire/static/css/main.22bc524a.css.map",
+    "main.7192b5f0.js.map": "/jeumemoire/static/js/main.7192b5f0.js.map",
+    "453.607a3c76.chunk.js.map": "/jeumemoire/static/js/453.607a3c76.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22bc524a.css",
+    "static/js/main.7192b5f0.js"
+  ]
+}
