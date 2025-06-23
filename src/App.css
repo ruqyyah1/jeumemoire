@@ -1,0 +1,144 @@
+body, html, .app {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+/* Alex Theme - Start Screen */
+.cloud-sky {
+  background: #87cefa;
+  height: 100vh;
+  position: relative;
+  padding-top: 80px;
+  overflow: hidden;
+}
+
+.cloud {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  width: 120px;
+  height: 60px;
+  top: 20px;
+  animation: float 12s infinite linear;
+}
+
+.cloud:nth-child(1) { left: 5%; }
+.cloud:nth-child(2) { left: 40%; }
+.cloud:nth-child(3) { left: 75%; }
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
+  100% { transform: translateY(0); }
+}
+
+.title {
+  color: #ffd700;
+  font-size: 48px;
+  text-shadow: 2px 2px #000;
+  margin-bottom: 30px;
+}
+
+.option {
+  margin: 1rem;
+  font-size: 1.2rem;
+}
+
+select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.play-btn {
+  background: red;
+  color: yellow;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 40px;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* Jasmine Theme - Game */
+.game-container {
+  background: linear-gradient(to bottom right, #e6ccff, #ccccff);
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.subtitle {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #ccc;
+  border-radius: 12px;
+  height: 80px;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.card.flipped {
+  background: white;
+}
+
+/* Game Over Screen */
+.end-screen {
+  padding: 4rem;
+  background-color: #fce4ec;
+  height: 100vh;
+}
+
+.end-screen h1 {
+  font-size: 36px;
+  color: #880e4f;
+}
+
+.end-screen p {
+  font-size: 20px;
+  margin: 1rem 0;
+}
+
+.end-screen button {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  background: #ff4081;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.back-container {
+  text-align: left;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.back-btn {
+  background-color: #ffffff;
+  border: 2px solid #6666aa;
+  color: #444;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
